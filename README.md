@@ -1,0 +1,1 @@
+Тестовое задание на должность frontend-разработчик в компанию RooX Solutions (https://uidm.ru)

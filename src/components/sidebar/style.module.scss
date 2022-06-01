@@ -1,0 +1,19 @@
+@import 'src/index';
+
+.sidebar {
+  max-width: 152px;
+  width: 100%;
+  padding: 35px 25px;
+  min-height: 100vh;
+  background-color: $sidebar-background;
+  margin-right: 34px;
+
+  &__text {
+    margin-bottom: 10px;
+  }
+
+  &__btn{
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,39 @@
+@import 'src/index';
+
+.user {
+  &__wrapper {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: $user-backColor;
+    margin-bottom: 12px;
+    border-radius: 8px;
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 7px;
+  }
+
+  &__item_span {
+    color: $opacity-color;
+    display: inline-block;
+    margin-right: 7px;
+  }
+}
+
+.skeleton {
+  opacity: .7;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}

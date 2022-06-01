@@ -1,0 +1,15 @@
+.userList {
+  &__wrapper {
+    padding-top: 30px;
+    max-width: 450px;
+    width: 100%;
+  }
+
+  &__description {
+    text-align: right;
+  }
+}
+
+.box {
+  display: flex;
+}

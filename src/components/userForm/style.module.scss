@@ -1,0 +1,43 @@
+@import '../../index';
+
+.userForm{
+  &__item {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    max-width: 211px;
+    width: 100%;
+  }
+
+  &__span {
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+
+  &__input {
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+
+    &:disabled {
+      color: rgba(0, 0, 0, 0.3)
+    }
+  }
+
+  &__textarea {
+    height: 67px;
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  &__error {
+    position: absolute;
+    right: 0;
+    color: $danger-color;
+  }
+}

@@ -1,0 +1,77 @@
+@import 'assets/normalize/noramlize.css';
+
+// variables color
+$color-btn: #4B51EF;
+$default-color: #000000;
+$opacity-color: #A3A3A3;
+$danger-color: #D91313;
+$sidebar-background: #BDBDBD;
+$while-color: #FFFFFF;
+$user-backColor: #F3F3F3;
+$disabled-color: #AFAFAF;
+
+// global style
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: $default-color;
+  background-color: $while-color;
+}
+
+// global className
+.btn {
+  background-color: $color-btn;
+  color: $while-color;
+  padding: 5px 15px;
+  font-size: 12px;
+  line-height: 14px;
+  border: none;
+  border-radius: 5px;
+
+  &:disabled {
+    cursor: auto;
+    background-color: $disabled-color;
+  }
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 19px 34px;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+
+//animate preloader
+.preloader {
+  animation: rotate 0.8s infinite linear;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

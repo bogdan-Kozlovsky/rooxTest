@@ -1,0 +1,21 @@
+@import '../../index';
+
+.fullUser {
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__items {
+    border: 1px solid #F3F3F3;
+    border-radius: 8px;
+    padding: 20px 12px;
+  }
+
+  &__btn{
+    margin: 0 5px;
+  }
+}
+
